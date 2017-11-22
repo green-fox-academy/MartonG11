@@ -1,0 +1,51 @@
+body {
+    background-image: url("top.png")
+}
+
+h1 {
+    font-family: 'Spectral SC', serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: 'Spectral SC', serif;
+    color:pink;
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+}
+
+header {
+    height: 50px;
+    background-color: #333333;
+    background-image: url(logo.svg) no-repeat;
+    text-align: right
+}
+
+a {
+    color: #ff0099;
+}
+
+p {
+    font-family: courier;
+    text-align: justify
+}
+
+main {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+}
