@@ -1,0 +1,19 @@
+body {
+background: white
+
+}
+
+.small {
+    width: 450px;
+    height: 180px;
+    margin: 5px;
+    margin-top: 17px;
+    border: 5px solid #7DCE94;
+    background: #0E91A1;
+    font-size: 36px;
+  }
+p {
+    color: #005566;
+    padding-left: 16px;
+    padding-top: 16px;
+}

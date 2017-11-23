@@ -1,0 +1,44 @@
+#big {
+    width: 385px;
+    height: 550px;
+    background: #4285F4;
+    overflow: hidden;
+   }
+
+   #big #first {
+       position: relative;
+       width: 350px;
+       height: 125px;
+       margin: auto;
+       margin-top: 15px;
+       background: #E67676;
+    }
+
+    #big #second {
+        position: relative;
+        width: 350px;
+        height: 125px;
+        margin: auto;
+        background: #F2F062;
+     }
+     #big #third {
+        position: relative;
+        width: 350px;
+        height: 125px;
+        margin: auto;
+        background: #A9E6E6;
+     }
+
+     #big #fourth {
+        position: relative;
+        width: 350px;
+        height: 125px;
+        margin: auto;
+        background: #7692E4;
+        font-size: 36px
+     }
+
+p {
+    color: white;
+
+}
