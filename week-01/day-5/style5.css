@@ -1,0 +1,51 @@
+#center {
+box-sizing: border-box ; 
+margin: auto;  
+width: 655px;
+height: 700px;
+background: #127731;
+
+}
+
+#center #first {
+    position: relative;
+    top: 30px;
+    width: 624px;
+    height: 44px;
+    margin: auto;
+    background: #FFE42E;
+    border: solid 10px red;
+ }
+
+ #center #second {
+    position: relative;
+    top: 50px;
+    right: 156px;
+    width: 50%;
+    height: 435px;
+    margin: auto;
+    background: #FFE42E;
+    border: solid 10px red;
+}
+
+#center #third {
+    position: relative;
+    bottom: 405px;
+    left: 156px;
+    width: 50%;
+    height: 435px;
+    margin: auto;
+    background: #FFE42E;
+    border: solid 10px red 
+}
+
+#center #fourth {
+    position: relative; 
+    width: 624px;
+    height: 44px;
+    margin: auto;
+    background: #FFE42E;
+    border: solid 10px red;
+
+}
+
