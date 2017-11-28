@@ -6,4 +6,9 @@
 
 s = [1, 2, 3, 8, 5, 6]
 
-def changer
+def changer(x):
+    if x[3] == 8:
+        x[3] = 4
+        print(x[3])
+
+changer(s)
