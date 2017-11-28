@@ -7,3 +7,16 @@ am = "kuty"
 def appendA(name):
     return(name + "a")
 print(appendA(am))
+
+# - Create a variable named `nimals`
+#   with the following content: `["kuty", "macsk", "cic"]`
+# - Add all elements an `"a"` at the end
+
+nimals= ["kuty", "macsk", "cic"]
+
+def appendAA(x):
+    for i in range(len(x)):
+        x[i]+="a"
+    print(x)
+
+appendAA(nimals)
