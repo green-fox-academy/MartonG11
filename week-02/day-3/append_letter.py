@@ -6,9 +6,11 @@
 verbs = ["megy", "ver", "kapcsol", "rak", "néz"]
 preverb = "be"
 
-def appendAA(x):
-    for i in range(len(x)):
-         preverb += x[i]
-    print(x)
+def create_new_verbs(lista, text):
+    new_verbs = []
+    for i in lista:
+         new_verbs.append(text+i)
+    return new_verbs
 
-appendAA(verbs)
+
+print(create_new_verbs(verbs, preverb))
