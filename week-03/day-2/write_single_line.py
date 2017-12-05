@@ -10,7 +10,7 @@ myfile1.close()
 
 def write_file(file1):
     try:
-        myfile1 = open("my-file1.txt", "r")
+        myfile1 = open("my-file1.txt", "r")   
         myfile1.write("Marton Gabor likes puppies")
         myfile1.close()
     except IOError:
