@@ -3,13 +3,14 @@
 # If the program is unable to read the file (for example it does not exists),
 # then it should print an error message like: "Unable to read file: my-file.txt"
 
+new_file = "file1234.txt"
 
-my_file = open("myfile.txt" , "r")
 
-def print_lines(file):
+def print_lines(new_file):
     try:
-        print(file.read())
-    except FileNotFoundError:
+        myfile = open(new_file , "r")
+        print(myfile.read())
+    except IOError:
         print("Unable to read the file.")
 
-print_lines(my_file)
+print_lines(new_file)
