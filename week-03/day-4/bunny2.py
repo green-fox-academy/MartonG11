@@ -6,7 +6,7 @@
 # bunny_line: [1, 2, 3, 4, 5, .... ,n]
 # odd_bunny = 2 ears
 # even_bunny = 3 ears
-# print like this: [2 "ears", 3 "ears", 2, 3, 2, 3, 2 ....]
+# print like this: SUM[2 "ears", 3 "ears", 2, 3, 2, 3, 2 ....]
 
 def ear_calculator(bunnies):
     if bunnies == 0:
