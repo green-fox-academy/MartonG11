@@ -6,6 +6,6 @@ def decrypt(file_name):
     to_list = [reversed_order.read()]
     to_list.reverse()
     for i in to_list:
-        print(i[::-1])
+        print(i)
 
 decrypt("reversed-order.txt")
