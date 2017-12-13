@@ -11,6 +11,9 @@ class Animal:
     hunger = 50
     thirst = 50
 
+    def __init__(self, name):
+        self.name = name
+
     def eat(self):
         print("Omnomnomm")
         self.hunger -= 1
@@ -25,11 +28,11 @@ class Animal:
         self.thirst += 1
 
     def checkstatus(self):
-        print(" My hunger status is: " + str(self.hunger) + " \n My thirst status is: " + str(self.thirst))
+        print("I am the: " + self.name + " \n My hunger status is: " + str(self.hunger) + " \n My thirst status is: " + str(self.thirst))
 
-tiger = Animal()
-lion = Animal()
-cougar = Animal()
+tiger = Animal("tiger")
+lion = Animal("lion")
+cougar = Animal("cougar")
 
 tiger.play()
 tiger.checkstatus()
