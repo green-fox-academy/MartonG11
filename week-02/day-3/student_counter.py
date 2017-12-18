@@ -26,12 +26,39 @@ def people_age(sum_candy):
             print(age) 
 
 people_age(students)
+
+
+def candy_more():
+    for i in students:
+        if i["candies"] > 4:
+            print(i["name"])
+
+candy_more()
+
+def candy_ave():
+    candy = 0
+    for i in students:
+        candy += i["candies"]
+    for n in students:
+        average = candy / len(students)
+    print(average)
+
+candy_ave() 
     
 
 
 
 
+def more_candies(lista):
+        whos_got = ' '
+        for x in lista:
+                if x['candies']>4:
+                    whos_got += x['name'] + ' '
+        print(whos_got)
 
 
 
 
+    for i in range(0, len(students), 1):
+        if students[i]['candies'] > 4:
+            print(students[i]['name'])

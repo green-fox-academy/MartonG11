@@ -17,3 +17,9 @@ def contain_line(file):
 
 contain_line(my_file)
 
+
+
+
+        my_file = open(filename, 'r')
+        with open(filename) as counting:
+            return(sum(1 for letter in counting))
